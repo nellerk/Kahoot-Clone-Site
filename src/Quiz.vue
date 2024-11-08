@@ -9,7 +9,7 @@
         <!-- Display image if available -->
         <div v-if="currentQuestion.imageUrl" class="mb-6">
           <img
-            :src="`${apiBaseUrl}${currentQuestion.imageUrl}`"
+            :src="`${currentQuestion.imageUrl}`"
             alt="Question image"
             class="w-full h-auto rounded-lg shadow-sm"
           />
