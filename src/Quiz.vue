@@ -91,7 +91,8 @@
         totalPoints: 0, // Total points tracker
         userAnswers: [],
         showCorrectAnswer: false,
-        apiBaseUrl: 'http://localhost:5048/api',
+        //apiBaseUrl: 'http://localhost:5048/api',
+        apiBaseUrl: 'https://szakmasztarapi.runasp.net/api',
         isAnswerConfirmed: false // Prevent multiple scoring
       };
     },
